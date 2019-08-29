@@ -1,0 +1,12 @@
+
+import java.util.Scanner;
+public class Medidas {
+	public static void main(String args[]) {
+		float metros;
+		Scanner s = new Scanner(System.in);
+		System.out.println("Digite um valor em M: ");
+		metros = s.nextFloat();
+		System.out.println("O valor em decimetro e: "+metros*10+"O valor em centimetro e"+metros*100+"O valor em milimetro e:"+metros*1000);
+	}
+
+}
